@@ -29,7 +29,7 @@ export default function Hero() {
             <Button asChild size="lg" className="bg-white text-primary hover:bg-white/90">
               <Link href="#get-involved">Get Involved</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button asChild size="lg" className="bg-[#E6544F] text-white hover:bg-[#E6544F]/90 border-none">
               <Link href="#save-a-life">Save a Life in 60 Seconds</Link>
             </Button>
           </div>

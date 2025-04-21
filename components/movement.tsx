@@ -6,7 +6,7 @@ export default function Movement() {
     <section id="movement" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">The Movement</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">The Movement</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
             We're building a global community of life-savers. Join thousands of individuals committed to creating safer

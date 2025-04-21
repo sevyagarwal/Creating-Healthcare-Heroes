@@ -35,7 +35,7 @@ export default function Blog() {
     <section id="blog" className="py-20 bg-accent/50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">Blog & Updates</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">Blog & Updates</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
             Stay informed with our latest articles, success stories, and organizational updates.

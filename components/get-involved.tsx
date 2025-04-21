@@ -7,7 +7,7 @@ export default function GetInvolved() {
     <section id="get-involved" className="py-20 bg-accent/50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">Get Involved</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">Get Involved</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
             There are many ways to support our mission and help save lives. Find the option that works best for you.

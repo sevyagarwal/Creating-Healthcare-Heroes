@@ -5,7 +5,7 @@ export default function Impact() {
     <section id="impact" className="py-20 bg-primary text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Impact</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6">Our Impact</h2>
           <div className="w-20 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-lg">
             Since our founding, we've made a significant difference in communities around the world. Here's the impact

@@ -39,11 +39,17 @@ export default function Navbar() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-transparent",
+        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-[#37474F]/90 backdrop-blur-md",
       )}
     >
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <Link href="/" className="font-bold text-xl text-primary">
+        <Link
+          href="/"
+          className={cn(
+            "font-bold text-xl transition-colors duration-300",
+            scrolled ? "text-[#2A6970]" : "text-[#FFFACD]",
+          )}
+        >
           Creating Healthcare Heroes
         </Link>
 
@@ -53,12 +59,15 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-primary transition-colors"
+              className={cn(
+                "px-3 py-2 text-sm font-medium transition-colors",
+                scrolled ? "text-[#1E1E1E] hover:text-[#2A6970]" : "text-[#F5F5F5] hover:text-white",
+              )}
             >
               {link.name}
             </Link>
           ))}
-          <Button asChild className="ml-4 bg-secondary hover:bg-secondary/90 text-white">
+          <Button asChild className="ml-4 bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5]">
             <Link href="#save-a-life">Save a Life in 60s</Link>
           </Button>
         </nav>
@@ -71,25 +80,29 @@ export default function Navbar() {
           onClick={toggleMenu}
           aria-label={isOpen ? "Close menu" : "Open menu"}
         >
-          {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          {isOpen ? (
+            <X className={cn("h-6 w-6", scrolled ? "text-[#1E1E1E]" : "text-[#F5F5F5]")} />
+          ) : (
+            <Menu className={cn("h-6 w-6", scrolled ? "text-[#1E1E1E]" : "text-[#F5F5F5]")} />
+          )}
         </Button>
       </div>
 
       {/* Mobile Navigation Menu */}
       {isOpen && isMobile && (
-        <div className="md:hidden bg-white">
+        <div className="md:hidden bg-[#37474F]">
           <div className="container mx-auto px-4 py-3 flex flex-col space-y-2">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-primary transition-colors"
+                className="px-3 py-2 text-sm font-medium text-[#F5F5F5] hover:text-white transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
               </Link>
             ))}
-            <Button asChild className="mt-2 bg-secondary hover:bg-secondary/90 text-white">
+            <Button asChild className="mt-2 bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5]">
               <Link href="#save-a-life" onClick={() => setIsOpen(false)}>
                 Save a Life in 60s
               </Link>

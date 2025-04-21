@@ -60,11 +60,11 @@ export default function SaveALife() {
   const currentStepData = steps.find((step) => step.id === currentStep)
 
   return (
-    <section id="save-a-life" className="py-20 bg-accent">
+    <section id="save-a-life" className="py-20 bg-[#E6544F]/10">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">Save a Life in 60 Seconds</h2>
-          <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">Save a Life in 60 Seconds</h2>
+          <div className="w-20 h-1 bg-[#E6544F] mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
             Learn the basic steps that could help you save someone's life in an emergency situation. These simple
             actions can make all the difference.
@@ -122,7 +122,7 @@ export default function SaveALife() {
                   <Button
                     onClick={handleNext}
                     disabled={currentStep === steps.length}
-                    className="bg-secondary hover:bg-secondary/90 text-white"
+                    className="bg-[#E6544F] hover:bg-[#E6544F]/90 text-white"
                   >
                     Next
                   </Button>
