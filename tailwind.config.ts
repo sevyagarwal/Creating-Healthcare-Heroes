@@ -19,38 +19,38 @@ const config = {
     },
     extend: {
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        border: "#C7E7F5", // Light Blue Background
+        input: "#FFFFFF", // White for input backgrounds
+        ring: "#236B77", // Dark Teal for focus rings
+        background: "#C7E7F5", // Light Blue Background
+        foreground: "#1A578C", // Dark Blue Text (Title)
         primary: {
-          DEFAULT: "#2D5F74", // Darker teal from the image
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "#236B77", // Dark Teal
+          foreground: "#FFFFFF", // White for primary text
         },
         secondary: {
-          DEFAULT: "#E15F51", // Coral/salmon red from the image
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "#ED4B4B", // Red/Coral Emergency Icon Color
+          foreground: "#FFFFFF", // White for secondary text
         },
         accent: {
-          DEFAULT: "#B8D1E0", // Light blue/teal from the image
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "#FFD6E8", // Light Pink
+          foreground: "#333333", // Black for accent text
         },
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+          DEFAULT: "#ED4B4B", // Red/Coral for destructive actions
+          foreground: "#FFFFFF", // White for destructive text
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "#FFFACD", // Light Yellow
+          foreground: "#333333", // Black for muted text
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "#FFFFFF", // White for popovers
+          foreground: "#333333", // Black for popover text
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: "#FFD6E8", // Light Pink for cards
+          foreground: "#1A578C", // Dark Blue for card text
         },
       },
       borderRadius: {
