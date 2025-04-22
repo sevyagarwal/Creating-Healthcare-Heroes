@@ -39,7 +39,7 @@ export default function Navbar() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-[#37474F]/90 backdrop-blur-md",
+        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-[#C7E7F5]/90 backdrop-blur-md",
       )}
     >
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
@@ -47,7 +47,7 @@ export default function Navbar() {
           href="/"
           className={cn(
             "font-bold text-xl transition-colors duration-300",
-            scrolled ? "text-[#2A6970]" : "text-[#FFFACD]",
+            scrolled ? "text-[#2A6970]" : "text-[#1E1E1E]", // Changed from #FFFACD to #1E1E1E (black)
           )}
         >
           Creating Healthcare Heroes
@@ -60,14 +60,14 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               className={cn(
-                "px-3 py-2 text-sm font-medium transition-colors",
-                scrolled ? "text-[#1E1E1E] hover:text-[#2A6970]" : "text-[#F5F5F5] hover:text-white",
+                "px-3 py-2 text-sm font-bold transition-colors",
+                scrolled ? "text-[#1E1E1E] hover:text-[#2A6970]" : "text-[#1E1E1E] hover:text-[#2A6970]",
               )}
             >
               {link.name}
             </Link>
           ))}
-          <Button asChild className="ml-4 bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5]">
+          <Button asChild className="ml-4 bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5] font-bold">
             <Link href="#save-a-life">Save a Life in 60s</Link>
           </Button>
         </nav>
@@ -81,28 +81,28 @@ export default function Navbar() {
           aria-label={isOpen ? "Close menu" : "Open menu"}
         >
           {isOpen ? (
-            <X className={cn("h-6 w-6", scrolled ? "text-[#1E1E1E]" : "text-[#F5F5F5]")} />
+            <X className={cn("h-6 w-6", scrolled ? "text-[#1E1E1E]" : "text-[#1E1E1E]")} />
           ) : (
-            <Menu className={cn("h-6 w-6", scrolled ? "text-[#1E1E1E]" : "text-[#F5F5F5]")} />
+            <Menu className={cn("h-6 w-6", scrolled ? "text-[#1E1E1E]" : "text-[#1E1E1E]")} />
           )}
         </Button>
       </div>
 
       {/* Mobile Navigation Menu */}
       {isOpen && isMobile && (
-        <div className="md:hidden bg-[#37474F]">
+        <div className="md:hidden bg-[#C7E7F5]">
           <div className="container mx-auto px-4 py-3 flex flex-col space-y-2">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-[#F5F5F5] hover:text-white transition-colors"
+                className="px-3 py-2 text-sm font-bold text-[#1E1E1E] hover:text-[#2A6970] transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
               </Link>
             ))}
-            <Button asChild className="mt-2 bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5]">
+            <Button asChild className="mt-2 bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5] font-bold">
               <Link href="#save-a-life" onClick={() => setIsOpen(false)}>
                 Save a Life in 60s
               </Link>
