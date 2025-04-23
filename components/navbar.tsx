@@ -39,7 +39,7 @@ export default function Navbar() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-[#C7E7F5]/90 backdrop-blur-md",
+        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-[#A8D8D8]/90 backdrop-blur-md",
       )}
     >
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
