@@ -10,8 +10,7 @@ export default function WhatWeTeach() {
           <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">What We Teach</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Our curriculum covers essential life-saving skills that can make the difference between life and death in
-            emergency situations.
+            From the classroom to the playground to home, we're building a generation that knows how to care, act, and protect, even in the most unexpected moments.
           </p>
         </div>
 
@@ -19,7 +18,7 @@ export default function WhatWeTeach() {
           <TabsList className="grid grid-cols-2 md:grid-cols-4 mb-8">
             <TabsTrigger value="cpr" className="flex items-center gap-2">
               <Heart className="h-4 w-4" />
-              <span>CPR</span>
+              <span>Basic Hygiene</span>
             </TabsTrigger>
             <TabsTrigger value="first-aid" className="flex items-center gap-2">
               <Droplets className="h-4 w-4" />
@@ -37,27 +36,26 @@ export default function WhatWeTeach() {
 
           <TabsContent value="cpr" className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl font-semibold mb-4 text-primary">Cardiopulmonary Resuscitation (CPR)</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-primary">Clean hands. Safe habits. Healthier lives.</h3>
               <p className="text-gray-700 mb-4">
-                Learn how to perform life-saving CPR for adults, children, and infants. Our hands-on training gives you
-                the confidence to act quickly in cardiac emergencies.
+                We teach kids how simple choices can prevent sickness before it starts. From germs to daily routines, this foundation helps children take control of their own health and protect the people around them.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-secondary mr-2">•</span>
-                  <span>Recognizing cardiac arrest</span>
+                  <span>Handwashing 101- When, why, and how to wash our hands properly</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-secondary mr-2">•</span>
-                  <span>Proper chest compression techniques</span>
+                  <span>Germ Smart- Understanding how sickness spreads</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-secondary mr-2">•</span>
-                  <span>Rescue breathing methods</span>
+                  <span>Personal Hygiene Routhines- Brushing teeth, showering, nail care</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-secondary mr-2">•</span>
-                  <span>Using automated external defibrillators (AEDs)</span>
+                  <span>Respecting Shared Spaces- Clean classrooms, clean communities</span>
                 </li>
               </ul>
             </div>
