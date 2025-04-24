@@ -39,7 +39,7 @@ export default function Navbar() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-[#A8D8D8]/90 backdrop-blur-md",
+        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-[#A8D8D8] backdrop-blur-md",
       )}
     >
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
@@ -47,7 +47,7 @@ export default function Navbar() {
           href="/"
           className={cn(
             "font-bold text-xl transition-colors duration-300",
-            scrolled ? "text-[#2A6970]" : "text-[#1E1E1E]", // Changed from #FFFACD to #1E1E1E (black)
+            scrolled ? "text-[#2A6970]" : "text-[#1E1E1E]",
           )}
         >
           Creating Healthcare Heroes
@@ -90,7 +90,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation Menu */}
       {isOpen && isMobile && (
-        <div className="md:hidden bg-[#C7E7F5]">
+        <div className="md:hidden bg-[#A8D8D8]">
           <div className="container mx-auto px-4 py-3 flex flex-col space-y-2">
             {navLinks.map((link) => (
               <Link
