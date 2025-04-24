@@ -17,9 +17,9 @@ export default function Mission() {
             <div className="bg-white p-3 rounded-full w-fit mb-6">
               <CheckCircle className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-4 text-primary">Purpose</h3>
+            <h3 className="text-xl font-semibold mb-4 text-primary">Proactive Power</h3>
             <p className="text-gray-600">
-              Empower young people with essential first aid and healthcare knowledge, equipping them with the confidence and skills to save lives in their communities. 
+              We don't wait for emergencies to teach kids what to do, we prepare them before they happen. Healthcare Heroes is about replacing panic with preparedness, and building a system where prevention isn't an afterthought, it's the foundation.
             </p>
           </div>
 
@@ -27,9 +27,9 @@ export default function Mission() {
             <div className="bg-white p-3 rounded-full w-fit mb-6">
               <CheckCircle className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-4 text-primary">t</h3>
+            <h3 className="text-xl font-semibold mb-4 text-primary">Youth as First Responders</h3>
             <p className="text-gray-600">
-              Building confidence and competence so that individuals feel ready to act in emergency situations.
+              We believe kids shouldn't be sheilded from responsibility, they should be equipped for it. Our programs turn students into first responders-in-training, empowering them with real skills, real confidence, and real responsibility for the lives around them.
             </p>
           </div>
 
@@ -37,10 +37,9 @@ export default function Mission() {
             <div className="bg-white p-3 rounded-full w-fit mb-6">
               <CheckCircle className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-4 text-primary">Community</h3>
+            <h3 className="text-xl font-semibold mb-4 text-primary">Health Justice</h3>
             <p className="text-gray-600">
-              Creating networks of trained individuals who can support each other and respond collectively to
-              emergencies.
+              First aid is the great equalizer. By bringing life-staving education into classrooms, not just clinics, we are closing gaps in access, ability, and awareness. Every child deserves the chance to save a life, no matter their background.
             </p>
           </div>
         </div>
