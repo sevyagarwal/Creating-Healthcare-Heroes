@@ -66,7 +66,7 @@ export default function WhatWeTeach() {
 
           <TabsContent value="first-aid" className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl font-semibold mb-4 text-primary">First Aid Essentials</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-primary">When every second counts, knowledge saves lives.</h3>
               <p className="text-gray-700 mb-4">
                 Master the fundamentals of first aid to handle common injuries and medical emergencies with confidence
                 and competence.

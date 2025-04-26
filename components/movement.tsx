@@ -66,8 +66,8 @@ export default function Movement() {
             <div className="space-y-4">
               <div className="relative h-48 rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
-                  alt="Community member"
+                  src="/images/classroom-training-movement.png"
+                  alt="Students attentively listening to an instructor in a classroom with blue walls"
                   fill
                   className="object-cover"
                 />

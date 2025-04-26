@@ -1,24 +1,56 @@
+import { getAllBlogPosts } from "@/lib/blog-data"
 import Image from "next/image"
 import Link from "next/link"
+import { Calendar, Clock, ArrowRight, Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Calendar, Clock, ArrowRight } from "lucide-react"
-import { getAllBlogPosts } from "@/lib/blog-data"
 
-export default function Blog() {
+export default function BlogPage() {
   const blogPosts = getAllBlogPosts()
 
   return (
-    <section id="blog" className="py-20 bg-accent/50">
+    <main className="pt-32 pb-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">Blog & Updates</h2>
+          <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-primary">Blog & Updates</h1>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
             Stay informed with our latest articles, success stories, and organizational updates.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="max-w-4xl mx-auto mb-12">
+          <div className="relative">
+            <input
+              type="text"
+              placeholder="Search articles..."
+              className="w-full px-4 py-3 pl-12 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+            />
+            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-2 justify-center">
+            <Button variant="outline" size="sm" className="rounded-full">
+              All Topics
+            </Button>
+            <Button variant="outline" size="sm" className="rounded-full">
+              First Aid
+            </Button>
+            <Button variant="outline" size="sm" className="rounded-full">
+              Emergency Response
+            </Button>
+            <Button variant="outline" size="sm" className="rounded-full">
+              Disaster Preparedness
+            </Button>
+            <Button variant="outline" size="sm" className="rounded-full">
+              Health
+            </Button>
+            <Button variant="outline" size="sm" className="rounded-full">
+              Safety
+            </Button>
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {blogPosts.map((post) => (
             <div
               key={post.id}
@@ -51,10 +83,39 @@ export default function Blog() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
-          <Button asChild variant="outline" className="border-secondary text-secondary hover:bg-accent/50">
-            <Link href="/blog">View All Posts</Link>
-          </Button>
+        <div className="mt-12 flex justify-center">
+          <nav className="inline-flex rounded-md shadow">
+            <a
+              href="#"
+              className="px-4 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+            >
+              Previous
+            </a>
+            <a
+              href="#"
+              className="px-4 py-2 border-t border-b border-gray-300 bg-white text-sm font-medium text-primary"
+            >
+              1
+            </a>
+            <a
+              href="#"
+              className="px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+            >
+              2
+            </a>
+            <a
+              href="#"
+              className="px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+            >
+              3
+            </a>
+            <a
+              href="#"
+              className="px-4 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+            >
+              Next
+            </a>
+          </nav>
         </div>
 
         <div className="mt-20 max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-sm">
@@ -78,6 +139,6 @@ export default function Blog() {
           </form>
         </div>
       </div>
-    </section>
+    </main>
   )
 }
