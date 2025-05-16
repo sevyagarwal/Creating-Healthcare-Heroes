@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -43,14 +44,18 @@ export default function Navbar() {
       )}
     >
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <Link
-          href="/"
-          className={cn(
-            "font-bold text-xl transition-colors duration-300",
-            scrolled ? "text-[#2A6970]" : "text-[#1E1E1E]",
-          )}
-        >
-          One Breath Ahead
+        <Link href="/" className="flex items-center gap-2">
+          <div className="relative w-10 h-10">
+            <Image src="/logo.png" alt="One Breath Ahead Logo" width={40} height={40} className="w-full h-full" />
+          </div>
+          <span
+            className={cn(
+              "font-bold text-xl transition-colors duration-300",
+              scrolled ? "text-[#2A6970]" : "text-[#1E1E1E]",
+            )}
+          >
+            One Breath Ahead
+          </span>
         </Link>
 
         {/* Desktop Navigation */}

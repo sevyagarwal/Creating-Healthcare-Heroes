@@ -10,6 +10,13 @@ export const metadata = {
   title: "One Breath Ahead - Non-Profit Organization",
   description: "We teach life-saving skills to empower communities and save lives.",
   generator: "v0.dev",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/favicon.png", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 }
 
 export default function RootLayout({
