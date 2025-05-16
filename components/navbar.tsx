@@ -50,7 +50,7 @@ export default function Navbar() {
             scrolled ? "text-[#2A6970]" : "text-[#1E1E1E]",
           )}
         >
-          Creating Healthcare Heroes
+          One Breath Ahead
         </Link>
 
         {/* Desktop Navigation */}

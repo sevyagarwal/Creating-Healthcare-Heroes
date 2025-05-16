@@ -7,7 +7,7 @@ import Footer from "@/components/footer"
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] }) // Add weights as needed
 export const metadata = {
-  title: "Creating Healthcare Heroes - Non-Profit Organization",
+  title: "One Breath Ahead - Non-Profit Organization",
   description: "We teach life-saving skills to empower communities and save lives.",
   generator: "v0.dev",
 }

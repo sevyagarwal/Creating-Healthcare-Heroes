@@ -18,7 +18,7 @@ export default function Impact() {
             <div className="bg-secondary/30 p-4 rounded-full mb-4">
               <Users className="h-8 w-8" />
             </div>
-            <h3 className="text-4xl font-bold mb-2">50K+</h3>
+            <h3 className="text-4xl font-bold mb-2">20K+</h3>
             <p className="text-sm md:text-base">People Trained</p>
           </div>
 
@@ -26,7 +26,7 @@ export default function Impact() {
             <div className="bg-secondary/30 p-4 rounded-full mb-4">
               <GraduationCap className="h-8 w-8" />
             </div>
-            <h3 className="text-4xl font-bold mb-2">1,200+</h3>
+            <h3 className="text-4xl font-bold mb-2">70+</h3>
             <p className="text-sm md:text-base">Workshops Conducted</p>
           </div>
 
@@ -34,15 +34,15 @@ export default function Impact() {
             <div className="bg-secondary/30 p-4 rounded-full mb-4">
               <Globe className="h-8 w-8" />
             </div>
-            <h3 className="text-4xl font-bold mb-2">25+</h3>
-            <p className="text-sm md:text-base">Countries Reached</p>
+            <h3 className="text-4xl font-bold mb-2">2+</h3>
+            <p className="text-sm md:text-base">Continents Reached</p>
           </div>
 
           <div className="flex flex-col items-center">
             <div className="bg-secondary/30 p-4 rounded-full mb-4">
               <Heart className="h-8 w-8" />
             </div>
-            <h3 className="text-4xl font-bold mb-2">500+</h3>
+            <h3 className="text-4xl font-bold mb-2">250+</h3>
             <p className="text-sm md:text-base">Lives Saved</p>
           </div>
         </div>
@@ -53,18 +53,16 @@ export default function Impact() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white/10 p-6 rounded-lg">
               <blockquote className="text-lg italic mb-4">
-                "The CPR training I received saved my neighbor's life when he had a sudden cardiac arrest. I knew
-                exactly what to do until the ambulance arrived."
+                "After the bootcamp, I felt more confident in being there for other people in my community. I feel like I can meaningfully contribute now"
               </blockquote>
-              <div className="font-semibold">— Sarah T., Chicago</div>
+              <div className="font-semibold">— 5th Grade Student, Austin</div>
             </div>
 
             <div className="bg-white/10 p-6 rounded-lg">
               <blockquote className="text-lg italic mb-4">
-                "After the disaster preparedness workshop, our community was able to respond effectively when floods hit
-                our area. We helped each other and minimized losses."
+                "This bootcamp has inspired me to continue with my dreams of becoming a doctor. I want to save people and heal them."
               </blockquote>
-              <div className="font-semibold">— Miguel R., Houston</div>
+              <div className="font-semibold">— Gunjan Sharma, Rajisthan</div>
             </div>
           </div>
         </div>

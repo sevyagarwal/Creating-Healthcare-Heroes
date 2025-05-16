@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Link href="/" className="font-bold text-xl text-white mb-4 inline-block">
-              Creating Healthcare Heroes
+              One Breath Ahead
             </Link>
             <p className="text-gray-300 mb-4">Empowering communities through life-saving skills and education.</p>
             <div className="flex space-x-4">
@@ -119,7 +119,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            &copy; {new Date().getFullYear()} Creating Healthcare Heroes. All rights reserved.
+            &copy; {new Date().getFullYear()} One Breath Ahead. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <Link href="#" className="text-gray-300 hover:text-white text-sm">

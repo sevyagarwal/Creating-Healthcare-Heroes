@@ -8,7 +8,7 @@ export default function Mission() {
           <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">Our Mission</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Somewhere, a child will take a breath because another child knew what to do. Together, we're building a world where first aid isn't forgotten, feared or reserved for adults, it's second nature. Every lesson we teach, every school we reach, is one more life that won't be lost to silence.
+            One Breath Ahead is building a future where no life is lost because of a lack of knowledge. We equip the youth with life saving skills through engaging, age-appropriate education. By shifting healthcare from reaction to prevention, we empower the next generation to act in the moments that matter the most. 
           </p>
         </div>
 
