@@ -33,7 +33,7 @@ export default function Founder() {
                 Pre-Med track, with a vision of becoming a future physician, public health leader, and healthcare
                 innovator. She started One Breath Ahead as her Girl Scout Gold Award project, after being struck by a
                 powerful truth: that up to 59% of trauma-related deaths could have been prevented with basic first aid
-                skills that are rarely taught in schools. Frustrated by this gap, she set out to design a first aid
+                skills that are rarely taught in schools. With a goal to address this gap, she set out to design a first aid
                 education program for students that is hands-on, empowering, and accessible, because saving a life
                 shouldn't depend on age, background, or zip code.
               </p>
