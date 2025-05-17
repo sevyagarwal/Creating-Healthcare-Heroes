@@ -84,12 +84,15 @@ export default function Movement() {
 
           <div className="order-1 md:order-2">
             <div className="relative h-80 rounded-lg overflow-hidden">
-              <Image
-                src="/images/classroom-training-movement.png"
-                alt="Students attentively listening to an instructor in a classroom with blue walls"
-                fill
-                className="object-cover"
-              />
+              <div className="relative w-full h-full">
+                <Image
+                  src="/images/classroom-training-movement.png"
+                  alt="Students attentively listening to an instructor in a classroom with blue walls"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
           </div>
         </div>

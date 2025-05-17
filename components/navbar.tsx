@@ -62,7 +62,8 @@ export default function Navbar() {
                 alt="One Breath Ahead Logo"
                 width={56}
                 height={56}
-                className="w-full h-full object-contain"
+                priority
+                style={{ objectFit: "contain" }}
               />
             </div>
             <span className="text-xl font-bold text-[#0A4B53]">One Breath Ahead</span>

@@ -10,7 +10,13 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="relative w-10 h-10 bg-white rounded-full p-1">
-                <Image src="/logo.png" alt="One Breath Ahead Logo" width={40} height={40} className="w-full h-full" />
+                <Image
+                  src="/logo.png"
+                  alt="One Breath Ahead Logo"
+                  width={40}
+                  height={40}
+                  style={{ objectFit: "contain" }}
+                />
               </div>
               <span className="font-bold text-xl text-white">One Breath Ahead</span>
             </Link>

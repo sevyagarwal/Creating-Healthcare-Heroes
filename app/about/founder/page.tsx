@@ -20,13 +20,16 @@ export default function FounderPage() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
           <div className="relative h-[500px] md:h-[600px] rounded-lg overflow-hidden">
-            <Image
-              src="/images/sevya-agarwal.png"
-              alt="Sevya Agarwal, Founder of One Breath Ahead"
-              fill
-              className="object-contain"
-              priority
-            />
+            <div className="relative w-full h-full">
+              <Image
+                src="/images/sevya-agarwal.png"
+                alt="Sevya Agarwal, Founder of One Breath Ahead"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                style={{ objectFit: "contain" }}
+                priority
+              />
+            </div>
           </div>
 
           <div>
@@ -76,12 +79,15 @@ export default function FounderPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <div className="relative h-40 w-40 mx-auto rounded-full overflow-hidden mb-4">
-                <Image
-                  src="/placeholder.svg?height=200&width=200"
-                  alt="Dr. Jennifer Lee"
-                  fill
-                  className="object-cover"
-                />
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/placeholder.svg?height=200&width=200"
+                    alt="Dr. Jennifer Lee"
+                    fill
+                    sizes="(max-width: 768px) 100px, 160px"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
               </div>
               <h4 className="text-xl font-semibold mb-1 text-primary">Dr. Jennifer Lee</h4>
               <p className="text-secondary font-medium mb-2">Board Chair</p>
@@ -99,12 +105,15 @@ export default function FounderPage() {
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <div className="relative h-40 w-40 mx-auto rounded-full overflow-hidden mb-4">
-                <Image
-                  src="/placeholder.svg?height=200&width=200"
-                  alt="Michael Rodriguez"
-                  fill
-                  className="object-cover"
-                />
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/placeholder.svg?height=200&width=200"
+                    alt="Michael Rodriguez"
+                    fill
+                    sizes="(max-width: 768px) 100px, 160px"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
               </div>
               <h4 className="text-xl font-semibold mb-1 text-primary">Michael Rodriguez</h4>
               <p className="text-secondary font-medium mb-2">Treasurer</p>
@@ -122,7 +131,15 @@ export default function FounderPage() {
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <div className="relative h-40 w-40 mx-auto rounded-full overflow-hidden mb-4">
-                <Image src="/placeholder.svg?height=200&width=200" alt="Sarah Patel" fill className="object-cover" />
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/placeholder.svg?height=200&width=200"
+                    alt="Sarah Patel"
+                    fill
+                    sizes="(max-width: 768px) 100px, 160px"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
               </div>
               <h4 className="text-xl font-semibold mb-1 text-primary">Sarah Patel</h4>
               <p className="text-secondary font-medium mb-2">Secretary</p>
@@ -146,7 +163,15 @@ export default function FounderPage() {
 
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative h-32 w-32 rounded-full overflow-hidden">
-              <Image src="/placeholder.svg?height=150&width=150" alt="Legal Counsel" fill className="object-cover" />
+              <div className="relative w-full h-full">
+                <Image
+                  src="/placeholder.svg?height=150&width=150"
+                  alt="Legal Counsel"
+                  fill
+                  sizes="128px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
             <div>
               <h4 className="text-xl font-semibold mb-1 text-primary">Robert Johnson, Esq.</h4>

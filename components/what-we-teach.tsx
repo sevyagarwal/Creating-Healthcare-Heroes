@@ -62,12 +62,15 @@ export default function WhatWeTeach() {
               </ul>
             </div>
             <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
-              <Image
-                src="/images/child-brushing-teeth.png"
-                alt="Child brushing teeth demonstrating proper hygiene"
-                fill
-                className="object-cover"
-              />
+              <div className="relative w-full h-full">
+                <Image
+                  src="/images/child-brushing-teeth.png"
+                  alt="Child brushing teeth demonstrating proper hygiene"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
           </TabsContent>
 
@@ -100,12 +103,15 @@ export default function WhatWeTeach() {
               </ul>
             </div>
             <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
-              <Image
-                src="/images/first-aid-wound-care.png"
-                alt="First aid training showing wound care technique"
-                fill
-                className="object-cover"
-              />
+              <div className="relative w-full h-full">
+                <Image
+                  src="/images/first-aid-wound-care.png"
+                  alt="First aid training showing wound care technique"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
           </TabsContent>
 
@@ -136,12 +142,15 @@ export default function WhatWeTeach() {
               </ul>
             </div>
             <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
-              <Image
-                src="/images/emergency-response-cpr.png"
-                alt="Students practicing CPR on a training mannequin"
-                fill
-                className="object-cover"
-              />
+              <div className="relative w-full h-full">
+                <Image
+                  src="/images/emergency-response-cpr.png"
+                  alt="Students practicing CPR on a training mannequin"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
           </TabsContent>
 
@@ -172,12 +181,15 @@ export default function WhatWeTeach() {
               </ul>
             </div>
             <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
-              <Image
-                src="/images/disaster-prep-bandaging.png"
-                alt="Students practicing bandaging techniques for disaster preparedness"
-                fill
-                className="object-cover"
-              />
+              <div className="relative w-full h-full">
+                <Image
+                  src="/images/disaster-prep-bandaging.png"
+                  alt="Students practicing bandaging techniques for disaster preparedness"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
           </TabsContent>
         </Tabs>

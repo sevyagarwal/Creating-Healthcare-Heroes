@@ -8,13 +8,16 @@ export default function Hero() {
       {/* Darker overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/60 z-10" />
       <div className="absolute inset-0">
-        <Image
-          src="/images/classroom-training.png"
-          alt="Children learning life-saving skills in a classroom"
-          fill
-          priority
-          className="object-cover"
-        />
+        <div className="relative w-full h-full">
+          <Image
+            src="/images/classroom-training.png"
+            alt="Children learning life-saving skills in a classroom"
+            fill
+            priority
+            sizes="100vw"
+            style={{ objectFit: "cover" }}
+          />
+        </div>
       </div>
 
       <div className="container relative mx-auto px-4 py-32 md:py-48 z-20">
