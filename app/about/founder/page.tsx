@@ -1,11 +1,17 @@
 import Image from "next/image"
+import Link from "next/link"
+import { ArrowLeft } from "lucide-react"
 
-export default function Founder() {
+export default function FounderPage() {
   return (
-    <section id="founder" className="py-20 bg-white">
+    <main className="pt-32 pb-20">
       <div className="container mx-auto px-4">
+        <Link href="/" className="inline-flex items-center text-primary font-medium hover:text-primary/80 mb-8">
+          <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
+        </Link>
+
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">Meet the Founder</h2>
+          <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-primary">Meet the Founder</h1>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
             Learn about the person behind our mission and what inspired the creation of our organization.
@@ -158,6 +164,6 @@ export default function Founder() {
           </div>
         </div>
       </div>
-    </section>
+    </main>
   )
 }

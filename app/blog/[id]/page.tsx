@@ -1,6 +1,5 @@
 import { getBlogPost } from "@/lib/blog-data"
 import { notFound } from "next/navigation"
-import Image from "next/image"
 import Link from "next/link"
 import { Calendar, Clock, ArrowLeft, User } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -20,10 +19,6 @@ export default function BlogPost({ params }: { params: { id: string } }) {
             <ArrowLeft className="mr-2 h-4 w-4" /> Back to Blog
           </Link>
 
-          <div className="relative h-[400px] w-full rounded-lg overflow-hidden mb-8">
-            <Image src={post.image || "/placeholder.svg"} alt={post.title} fill className="object-cover" priority />
-          </div>
-
           <div className="flex items-center text-sm text-gray-500 mb-4">
             <div className="flex items-center mr-4">
               <Calendar className="h-4 w-4 mr-1" />
@@ -38,13 +33,8 @@ export default function BlogPost({ params }: { params: { id: string } }) {
           <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-primary">{post.title}</h1>
 
           <div className="flex items-center mb-8 p-4 bg-accent/20 rounded-lg">
-            <div className="relative h-16 w-16 rounded-full overflow-hidden mr-4">
-              <Image
-                src={post.author.avatar || "/placeholder.svg"}
-                alt={post.author.name}
-                fill
-                className="object-cover"
-              />
+            <div className="flex items-center bg-gray-200 h-16 w-16 rounded-full justify-center mr-4">
+              <User className="h-8 w-8 text-gray-500" />
             </div>
             <div>
               <div className="flex items-center">

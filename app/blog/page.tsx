@@ -1,5 +1,4 @@
 import { getAllBlogPosts } from "@/lib/blog-data"
-import Image from "next/image"
 import Link from "next/link"
 import { Calendar, Clock, ArrowRight, Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -54,31 +53,26 @@ export default function BlogPage() {
           {blogPosts.map((post) => (
             <div
               key={post.id}
-              className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow p-6"
             >
-              <div className="relative h-48">
-                <Image src={post.image || "/placeholder.svg"} alt={post.title} fill className="object-cover" />
-              </div>
-              <div className="p-6">
-                <div className="flex items-center text-sm text-gray-500 mb-3">
-                  <div className="flex items-center mr-4">
-                    <Calendar className="h-4 w-4 mr-1" />
-                    <span>{post.date}</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Clock className="h-4 w-4 mr-1" />
-                    <span>{post.readTime}</span>
-                  </div>
+              <div className="flex items-center text-sm text-gray-500 mb-3">
+                <div className="flex items-center mr-4">
+                  <Calendar className="h-4 w-4 mr-1" />
+                  <span>{post.date}</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-2 text-primary">{post.title}</h3>
-                <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                <Link
-                  href={`/blog/${post.id}`}
-                  className="inline-flex items-center text-secondary font-medium hover:text-secondary/80"
-                >
-                  Read More <ArrowRight className="ml-1 h-4 w-4" />
-                </Link>
+                <div className="flex items-center">
+                  <Clock className="h-4 w-4 mr-1" />
+                  <span>{post.readTime}</span>
+                </div>
               </div>
+              <h3 className="text-xl font-semibold mb-2 text-primary">{post.title}</h3>
+              <p className="text-gray-600 mb-4">{post.excerpt}</p>
+              <Link
+                href={`/blog/${post.id}`}
+                className="inline-flex items-center text-secondary font-medium hover:text-secondary/80"
+              >
+                Read More <ArrowRight className="ml-1 h-4 w-4" />
+              </Link>
             </div>
           ))}
         </div>

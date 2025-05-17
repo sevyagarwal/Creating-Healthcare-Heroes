@@ -10,7 +10,8 @@ export default function WhatWeTeach() {
           <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-[#1E1E1E]">What We Teach</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            From the classroom to the playground to home, we're building a generation that knows how to care, act, and protect, even in the most unexpected moments.
+            From the classroom to the playground to home, we're building a generation that knows how to care, act, and
+            protect, even in the most unexpected moments.
           </p>
         </div>
 
@@ -38,7 +39,8 @@ export default function WhatWeTeach() {
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-primary">Clean hands. Safe habits. Healthier lives.</h3>
               <p className="text-gray-700 mb-4">
-                We teach kids how simple choices can prevent sickness before it starts. From germs to daily routines, this foundation helps children take control of their own health and protect the people around them.
+                We teach kids how simple choices can prevent sickness before it starts. From germs to daily routines,
+                this foundation helps children take control of their own health and protect the people around them.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
@@ -60,13 +62,20 @@ export default function WhatWeTeach() {
               </ul>
             </div>
             <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=600&width=800" alt="CPR training" fill className="object-cover" />
+              <Image
+                src="/images/child-brushing-teeth.png"
+                alt="Child brushing teeth demonstrating proper hygiene"
+                fill
+                className="object-cover"
+              />
             </div>
           </TabsContent>
 
           <TabsContent value="first-aid" className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl font-semibold mb-4 text-primary">When every second counts, knowledge saves lives.</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-primary">
+                When every second counts, knowledge saves lives.
+              </h3>
               <p className="text-gray-700 mb-4">
                 Master the fundamentals of first aid to handle common injuries and medical emergencies with confidence
                 and competence.
@@ -92,8 +101,8 @@ export default function WhatWeTeach() {
             </div>
             <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=600&width=800"
-                alt="First aid training"
+                src="/images/first-aid-wound-care.png"
+                alt="First aid training showing wound care technique"
                 fill
                 className="object-cover"
               />
@@ -128,8 +137,8 @@ export default function WhatWeTeach() {
             </div>
             <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=600&width=800"
-                alt="Emergency response training"
+                src="/images/emergency-response-cpr.png"
+                alt="Students practicing CPR on a training mannequin"
                 fill
                 className="object-cover"
               />
@@ -164,8 +173,8 @@ export default function WhatWeTeach() {
             </div>
             <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=600&width=800"
-                alt="Disaster preparedness training"
+                src="/images/disaster-prep-bandaging.png"
+                alt="Students practicing bandaging techniques for disaster preparedness"
                 fill
                 className="object-cover"
               />
