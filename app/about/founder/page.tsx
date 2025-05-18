@@ -11,10 +11,10 @@ export default function FounderPage() {
         </Link>
 
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-primary">Meet the Founder</h1>
+          <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-primary">Meet the Team</h1>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Learn about the person behind our mission and what inspired the creation of our organization.
+            Learn about the people behind our mission and what inspired the creation of our organization.
           </p>
         </div>
 

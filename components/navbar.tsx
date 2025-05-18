@@ -33,16 +33,16 @@ export default function Navbar() {
       href: "#",
       dropdown: true,
       items: [
-        { name: "Our Mission", href: "#mission" },
-        { name: "The Movement", href: "#movement" },
-        { name: "Meet the Founder", href: "#founder" },
+        { name: "Our Mission", href: "/about/mission" },
+        { name: "The Movement", href: "/about/movement" },
+        { name: "Meet the Team", href: "/about/founder" },
       ],
     },
-    { name: "What We Teach", href: "#what-we-teach" },
-    { name: "Impact", href: "#impact" },
-    { name: "Get Involved", href: "#get-involved" },
-    { name: "Blog", href: "#blog" },
-    { name: "Contact", href: "#contact" },
+    { name: "What We Teach", href: "/#what-we-teach" },
+    { name: "Impact", href: "/#impact" },
+    { name: "Get Involved", href: "/#get-involved" },
+    { name: "Blog", href: "/#blog" },
+    { name: "Contact", href: "/#contact" },
   ]
 
   return (
@@ -106,7 +106,7 @@ export default function Navbar() {
             </nav>
             <Link
               href="/school-program"
-              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md"
+              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md flex items-center justify-center"
             >
               Bring this to your school
             </Link>
@@ -163,7 +163,7 @@ export default function Navbar() {
             )}
             <Link
               href="/school-program"
-              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md inline-block"
+              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md text-center inline-block"
               onClick={() => setIsOpen(false)}
             >
               Bring this to your school

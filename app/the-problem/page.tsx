@@ -107,7 +107,7 @@ export default function TheProblemPage() {
           </p>
           <div className="flex justify-center">
             <Button asChild className="bg-secondary hover:bg-secondary/90 text-white">
-              <Link href="#what-we-teach">Learn About Our Approach</Link>
+              <Link href="/#what-we-teach">Learn About Our Approach</Link>
             </Button>
           </div>
         </div>

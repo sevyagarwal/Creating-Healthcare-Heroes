@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex min-h-screen flex-col">
-            <Navbar />
+            <Navbar key={new Date().getTime()} />
             <ConstructionBanner />
             {children}
             <Footer />
