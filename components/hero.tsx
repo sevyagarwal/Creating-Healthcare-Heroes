@@ -16,6 +16,7 @@ export default function Hero() {
             priority
             sizes="100vw"
             style={{ objectFit: "cover" }}
+            unoptimized
           />
         </div>
       </div>

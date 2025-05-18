@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { AlertTriangle, Clock, Heart, Frown } from "lucide-react"
+import { AlertTriangle, Clock, Heart, Frown, GraduationCap } from "lucide-react"
 
 export default function TheProblemPage() {
   return (
@@ -14,6 +14,52 @@ export default function TheProblemPage() {
             Understanding the critical gaps in healthcare education and emergency response that we're working to
             address.
           </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto mb-20">
+          <div className="order-2 md:order-1">
+            <h2 className="text-2xl font-semibold mb-4 text-primary flex items-center">
+              <GraduationCap className="mr-2 h-6 w-6 text-secondary" />
+              U.S. Lags in Public Health Education
+            </h2>
+            <p className="text-gray-700 mb-4">
+              Despite being one of the wealthiest nations in the world, the United States falls behind many other
+              developed countries in public health and first aid education. Only 10 states and Washington D.C. require
+              CPR training for high school graduation, and comprehensive first aid education is not mandated in most
+              school curricula.
+            </p>
+            <p className="text-gray-700 mb-4">
+              In contrast, countries like Norway, Denmark, and Germany have made first aid training mandatory in schools
+              and for driver's license applicants, resulting in bystander CPR rates as high as 73% compared to just 46%
+              in the U.S.
+            </p>
+            <div className="bg-primary/5 p-4 rounded-lg">
+              <h3 className="font-semibold text-primary mb-2">Key Statistics:</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-secondary mr-2">•</span>
+                  <span>Only 2.4% of the U.S. population receives CPR training annually</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-secondary mr-2">•</span>
+                  <span>Less than 3% of Americans are trained in bleeding control techniques</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-secondary mr-2">•</span>
+                  <span>Only 65% of U.S. teachers report feeling prepared to handle medical emergencies</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="order-1 md:order-2 relative h-64 md:h-80 rounded-lg overflow-hidden">
+            <Image
+              src="/placeholder.svg?height=600&width=800"
+              alt="Comparison of public health education across countries"
+              fill
+              className="object-cover"
+              unoptimized
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto mb-20">

@@ -18,6 +18,7 @@ const nextConfig = {
         hostname: '**',
       }
     ],
+    domains: ['placeholder.svg'],
   },
 };
 

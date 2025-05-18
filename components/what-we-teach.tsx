@@ -69,6 +69,7 @@ export default function WhatWeTeach() {
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: "cover" }}
+                  unoptimized
                 />
               </div>
             </div>
@@ -110,6 +111,7 @@ export default function WhatWeTeach() {
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: "cover" }}
+                  unoptimized
                 />
               </div>
             </div>
@@ -149,6 +151,7 @@ export default function WhatWeTeach() {
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: "cover" }}
+                  unoptimized
                 />
               </div>
             </div>
@@ -188,6 +191,7 @@ export default function WhatWeTeach() {
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: "cover" }}
+                  unoptimized
                 />
               </div>
             </div>

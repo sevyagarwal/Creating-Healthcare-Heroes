@@ -64,6 +64,7 @@ export default function Navbar() {
                 height={56}
                 priority
                 style={{ objectFit: "contain" }}
+                unoptimized
               />
             </div>
             <span className="text-xl font-bold text-[#0A4B53]">One Breath Ahead</span>
