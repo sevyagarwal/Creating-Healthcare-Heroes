@@ -70,7 +70,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center">
+          <div className="hidden md:flex items-center space-x-4">
             <nav className="flex items-center space-x-6 mr-4">
               {navLinks.map((link) =>
                 link.dropdown ? (
@@ -104,6 +104,12 @@ export default function Navbar() {
                 ),
               )}
             </nav>
+            <Link
+              href="/school-program"
+              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md"
+            >
+              Bring this to your school
+            </Link>
             <Button asChild className="bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5] font-bold">
               <Link href="#save-a-life">Can You Save a Life in 60s?</Link>
             </Button>
@@ -143,13 +149,25 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="px-3 py-2 text-sm font-bold text-black hover:text-gray-700 transition-colors"
+                  className={cn(
+                    "px-3 py-2 text-sm font-bold transition-colors",
+                    link.isSpecial
+                      ? "bg-[#C7E7F5] text-primary hover:bg-[#A7D7E5] rounded-md inline-block"
+                      : "text-black hover:text-gray-700",
+                  )}
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}
                 </Link>
               ),
             )}
+            <Link
+              href="/school-program"
+              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md inline-block"
+              onClick={() => setIsOpen(false)}
+            >
+              Bring this to your school
+            </Link>
             <Button asChild className="mt-2 bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5] font-bold">
               <Link href="#save-a-life" onClick={() => setIsOpen(false)}>
                 Can You Save a Life in 60s?

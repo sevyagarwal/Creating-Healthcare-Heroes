@@ -4,6 +4,8 @@ import { Poppins } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
+// Import the ConstructionBanner component
+import ConstructionBanner from "@/components/construction-banner"
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] }) // Add weights as needed
 export const metadata = {
@@ -30,6 +32,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex min-h-screen flex-col">
             <Navbar />
+            <ConstructionBanner />
             {children}
             <Footer />
           </div>
