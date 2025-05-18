@@ -35,7 +35,7 @@ export default function Hero() {
               <Link href="#get-involved">Get Involved</Link>
             </Button>
             <Button asChild size="lg" className="bg-[#E6544F] text-white hover:bg-[#E6544F]/90 border-none">
-              <Link href="#save-a-life">Save a Life in 60 Seconds</Link>
+              <Link href="#save-a-life">Can You Save a Life in 60 Seconds?</Link>
             </Button>
           </div>
         </div>

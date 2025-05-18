@@ -130,7 +130,7 @@ export default function GetInvolved() {
                     <Check className="mr-2 h-4 w-4" /> Copied!
                   </>
                 ) : (
-                  "Copy Link"
+                  "Share Now"
                 )}
               </Button>
             </CardFooter>
@@ -256,7 +256,9 @@ export default function GetInvolved() {
           </div>
 
           <div className="mt-8 text-center">
-            <Button className="bg-secondary hover:bg-secondary/90 text-white px-8 py-2">Complete Donation</Button>
+            <Button type="submit" className="bg-secondary hover:bg-secondary/90 text-white px-8 py-2">
+              Complete Donation
+            </Button>
             <p className="text-xs text-gray-500 mt-2">Your donation is tax-deductible to the extent allowed by law.</p>
           </div>
         </div>

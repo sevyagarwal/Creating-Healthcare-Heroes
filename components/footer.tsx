@@ -22,7 +22,12 @@ export default function Footer() {
             </Link>
             <p className="text-gray-300 mb-4">Empowering communities through life-saving skills and education.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a
+                href="https://facebook.com/onebreathahead"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white"
+              >
                 <span className="sr-only">Facebook</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -32,7 +37,12 @@ export default function Footer() {
                   />
                 </svg>
               </a>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a
+                href="https://instagram.com/onebreathahead"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white"
+              >
                 <span className="sr-only">Instagram</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -60,27 +70,27 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#mission" className="text-gray-300 hover:text-white">
+                <Link href="/about/mission" className="text-gray-300 hover:text-white">
                   Our Mission
                 </Link>
               </li>
               <li>
-                <Link href="#what-we-teach" className="text-gray-300 hover:text-white">
+                <Link href="/#what-we-teach" className="text-gray-300 hover:text-white">
                   What We Teach
                 </Link>
               </li>
               <li>
-                <Link href="#impact" className="text-gray-300 hover:text-white">
+                <Link href="/#impact" className="text-gray-300 hover:text-white">
                   Our Impact
                 </Link>
               </li>
               <li>
-                <Link href="#movement" className="text-gray-300 hover:text-white">
+                <Link href="/about/movement" className="text-gray-300 hover:text-white">
                   The Movement
                 </Link>
               </li>
               <li>
-                <Link href="#get-involved" className="text-gray-300 hover:text-white">
+                <Link href="/#get-involved" className="text-gray-300 hover:text-white">
                   Get Involved
                 </Link>
               </li>
@@ -91,27 +101,27 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#blog" className="text-gray-300 hover:text-white">
+                <Link href="/blog" className="text-gray-300 hover:text-white">
                   Blog & Updates
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-300 hover:text-white">
+                <Link href="/resources/training-materials" className="text-gray-300 hover:text-white">
                   Training Materials
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-300 hover:text-white">
+                <Link href="/resources/research" className="text-gray-300 hover:text-white">
                   Research
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-300 hover:text-white">
+                <Link href="/resources/partnerships" className="text-gray-300 hover:text-white">
                   Partnerships
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-300 hover:text-white">
+                <Link href="/resources/press-kit" className="text-gray-300 hover:text-white">
                   Press Kit
                 </Link>
               </li>
@@ -137,13 +147,13 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} One Breath Ahead. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
-            <Link href="#" className="text-gray-300 hover:text-white text-sm">
+            <Link href="/privacy-policy" className="text-gray-300 hover:text-white text-sm">
               Privacy Policy
             </Link>
-            <Link href="#" className="text-gray-300 hover:text-white text-sm">
+            <Link href="/terms-of-service" className="text-gray-300 hover:text-white text-sm">
               Terms of Service
             </Link>
-            <Link href="#" className="text-gray-300 hover:text-white text-sm">
+            <Link href="/cookie-policy" className="text-gray-300 hover:text-white text-sm">
               Cookie Policy
             </Link>
           </div>
