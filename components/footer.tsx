@@ -125,6 +125,11 @@ export default function Footer() {
                   Press Kit
                 </Link>
               </li>
+              <li>
+                <Link href="/sitemap" className="text-gray-300 hover:text-white">
+                  Site Map
+                </Link>
+              </li>
             </ul>
           </div>
 

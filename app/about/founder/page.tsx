@@ -105,20 +105,19 @@ export default function FounderPage() {
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <div className="relative h-40 w-40 mx-auto rounded-full overflow-hidden mb-4">
-                <div className="relative w-full h-full">
-                  <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Michael Rodriguez"
-                    fill
-                    sizes="(max-width: 768px) 100px, 160px"
-                    style={{ objectFit: "cover" }}
-                  />
-                </div>
+                <Image
+                  src="/images/sarva-thulasingam.png"
+                  alt="Sarva Thulasingam"
+                  width={160}
+                  height={160}
+                  className="object-cover"
+                />
               </div>
-              <h4 className="text-xl font-semibold mb-1 text-primary">Michael Rodriguez</h4>
+              <h4 className="text-xl font-semibold mb-1 text-primary">Sarva Thulasingam</h4>
               <p className="text-secondary font-medium mb-2">Treasurer</p>
               <p className="text-gray-600 text-sm mb-3">
-                Former CFO with extensive experience in nonprofit financial management and strategic planning.
+                Technology executive with expertise in financial management and strategic planning for nonprofit
+                organizations.
               </p>
               <div className="flex justify-center space-x-2">
                 <a href="#" className="text-primary hover:text-primary/80">
@@ -131,20 +130,19 @@ export default function FounderPage() {
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <div className="relative h-40 w-40 mx-auto rounded-full overflow-hidden mb-4">
-                <div className="relative w-full h-full">
-                  <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Sarah Patel"
-                    fill
-                    sizes="(max-width: 768px) 100px, 160px"
-                    style={{ objectFit: "cover" }}
-                  />
-                </div>
+                <Image
+                  src="/images/umesh-tiwari-new.jpeg"
+                  alt="Umesh Tiwari"
+                  width={160}
+                  height={160}
+                  className="object-cover"
+                />
               </div>
-              <h4 className="text-xl font-semibold mb-1 text-primary">Sarah Patel</h4>
-              <p className="text-secondary font-medium mb-2">Secretary</p>
+              <h4 className="text-xl font-semibold mb-1 text-primary">Umesh Tiwari</h4>
+              <p className="text-secondary font-medium mb-2">Board Member</p>
               <p className="text-gray-600 text-sm mb-3">
-                Education policy expert specializing in curriculum development and youth empowerment programs.
+                Technology and innovation specialist with expertise in scaling educational initiatives across diverse
+                communities.
               </p>
               <div className="flex justify-center space-x-2">
                 <a href="#" className="text-primary hover:text-primary/80">
@@ -163,21 +161,19 @@ export default function FounderPage() {
 
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative h-32 w-32 rounded-full overflow-hidden">
-              <div className="relative w-full h-full">
-                <Image
-                  src="/placeholder.svg?height=150&width=150"
-                  alt="Legal Counsel"
-                  fill
-                  sizes="128px"
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
+              <Image
+                src="/images/shikha-gupta.jpeg"
+                alt="Shikha Gupta"
+                width={128}
+                height={128}
+                className="object-cover"
+              />
             </div>
             <div>
-              <h4 className="text-xl font-semibold mb-1 text-primary">Robert Johnson, Esq.</h4>
-              <p className="text-secondary font-medium mb-3">Johnson Legal Services, LLC</p>
+              <h4 className="text-xl font-semibold mb-1 text-primary">Shikha Gupta, Esq.</h4>
+              <p className="text-secondary font-medium mb-3">Gupta Legal Services, LLC</p>
               <p className="text-gray-700 mb-2">
-                Robert Johnson serves as the registered agent for One Breath Ahead, handling legal compliance and
+                Shikha Gupta serves as the registered agent for One Breath Ahead, handling legal compliance and
                 documentation for the organization.
               </p>
               <div className="text-gray-600">
