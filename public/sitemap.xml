@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
+  <!-- Home Page -->
   <url>
     <loc>https://onebreathahead.org/</loc>
     <lastmod>2024-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Main Pages -->
   <url>
     <loc>https://onebreathahead.org/the-problem</loc>
     <lastmod>2024-05-19</lastmod>
@@ -97,6 +99,8 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+  
+  <!-- Resources -->
   <url>
     <loc>https://onebreathahead.org/resources/training-materials</loc>
     <lastmod>2024-05-19</lastmod>
@@ -160,5 +164,13 @@
     <lastmod>2024-05-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+  </url>
+
+  <!-- 404 Page -->
+  <url>
+    <loc>https://onebreathahead.org/404</loc>
+    <lastmod>2024-05-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
   </url>
 </urlset>
