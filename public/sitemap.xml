@@ -3,28 +3,39 @@
   <!-- Main Pages -->
   <url>
     <loc>https://onebreathahead.org/</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/the-problem</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://onebreathahead.org/sitemap</loc>
+    <lastmod>2024-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <!-- About Section -->
   <url>
     <loc>https://onebreathahead.org/about/mission</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/about/movement</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/about/founder</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -32,26 +43,31 @@
   <!-- School Programs -->
   <url>
     <loc>https://onebreathahead.org/school-program</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/school-program/one-day</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/school-program/six-week</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/school-program/teacher-training</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/school-program/faq</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -59,26 +75,49 @@
   <!-- Blog & Resources -->
   <url>
     <loc>https://onebreathahead.org/blog</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://onebreathahead.org/blog/essential-first-aid-skills</loc>
+    <lastmod>2024-05-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onebreathahead.org/blog/family-disaster-preparedness</loc>
+    <lastmod>2024-04-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onebreathahead.org/blog/psychology-emergency-response</loc>
+    <lastmod>2024-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://onebreathahead.org/resources/training-materials</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/resources/research</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/resources/partnerships</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/resources/press-kit</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -86,16 +125,19 @@
   <!-- Get Involved -->
   <url>
     <loc>https://onebreathahead.org/volunteer</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/donate</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/partner</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -103,22 +145,20 @@
   <!-- Legal & Policies -->
   <url>
     <loc>https://onebreathahead.org/privacy-policy</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/terms-of-service</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://onebreathahead.org/cookie-policy</loc>
+    <lastmod>2024-05-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://onebreathahead.org/sitemap</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>

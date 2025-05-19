@@ -1,4 +1,10 @@
+# robots.txt for onebreathahead.org
 User-agent: *
 Allow: /
 
+# Sitemap location
 Sitemap: https://onebreathahead.org/sitemap.xml
+
+# Disallow specific directories if needed
+# Disallow: /private/
+# Disallow: /admin/
