@@ -2,4 +2,4 @@
     "framework": "nextjs",
     "buildCommand": "npm run build --legacy-peer-deps",
     "installCommand": "npm install --legacy-peer-deps"
-  }
+}
