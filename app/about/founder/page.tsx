@@ -89,7 +89,7 @@ export default function FounderPage() {
                   />
                 </div>
               </div>
-              <h4 className="text-xl font-semibold mb-1 text-primary">Dr. Jennifer Lee</h4>
+              <h4 className="text-xl font-semibold mb-1 text-primary">Anubhuti Sharma</h4>
               <p className="text-secondary font-medium mb-2">Board Chair</p>
               <p className="text-gray-600 text-sm mb-3">
                 Emergency Medicine Physician with 15 years of experience in trauma care and medical education.

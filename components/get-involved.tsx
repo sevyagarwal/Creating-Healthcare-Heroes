@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { HandHeart, Banknote, Users, Share2, Check, Calendar } from "lucide-react"
+import { Heart, Banknote, Users, Share2, Check, Calendar } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
@@ -40,7 +40,7 @@ export default function GetInvolved() {
           <Card>
             <CardHeader>
               <div className="bg-accent p-3 rounded-full w-fit mb-4">
-                <HandHeart className="h-6 w-6 text-primary" />
+                <Heart className="h-6 w-6 text-primary" />
               </div>
               <CardTitle className="text-primary">Volunteer</CardTitle>
               <CardDescription>Share your time and skills</CardDescription>
