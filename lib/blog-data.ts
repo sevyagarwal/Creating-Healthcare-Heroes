@@ -473,6 +473,201 @@ export const blogPosts: BlogPost[] = [
     tags: ["Education Reform", "Curriculum Development", "First Aid Education", "Core Skills"],
   },
   {
+    id: "essential-first-aid-skills",
+    title: "5 Essential First Aid Skills Everyone Should Know",
+    excerpt: "Learn the basic first aid techniques that could help you save a life in an emergency situation.",
+    content: `
+      <p>When an emergency strikes, knowing what to do in the first few minutes can make all the difference. These five essential first aid skills are simple enough for anyone to learn, yet powerful enough to save a life.</p>
+      
+      <h2>1. CPR (Cardiopulmonary Resuscitation)</h2>
+      <p>CPR is perhaps the most critical life-saving skill. When someone's heart stops beating, immediate CPR can double or even triple their chances of survival. The basic steps include:</p>
+      <ul>
+        <li>Check for responsiveness and call for emergency help</li>
+        <li>Begin chest compressions at a rate of 100-120 per minute</li>
+        <li>Push hard and fast in the center of the chest, allowing full chest recoil between compressions</li>
+        <li>If trained, provide rescue breaths at a ratio of 30 compressions to 2 breaths</li>
+      </ul>
+      <p>Remember, even hands-only CPR (compression without breaths) is effective and better than no action at all.</p>
+      
+      <h2>2. Choking Response</h2>
+      <p>When someone is choking and cannot breathe, speak, or cough forcefully, you need to act quickly:</p>
+      <ul>
+        <li>Stand behind the person and wrap your arms around their waist</li>
+        <li>Make a fist with one hand and place it just above their navel</li>
+        <li>Grab your fist with your other hand and press into their abdomen with quick, upward thrusts</li>
+        <li>Repeat until the object is expelled or emergency services arrive</li>
+      </ul>
+      
+      <h2>3. Bleeding Control</h2>
+      <p>Severe bleeding can be life-threatening if not controlled quickly:</p>
+      <ul>
+        <li>Apply direct pressure to the wound using a clean cloth or bandage</li>
+        <li>If blood soaks through, add another layer without removing the first</li>
+        <li>If possible, elevate the injured area above the heart</li>
+        <li>For severe bleeding that doesn't stop, apply pressure to the appropriate pressure point (such as the brachial artery for arm wounds)</li>
+        <li>As a last resort for life-threatening limb bleeding, apply a tourniquet if you have proper training</li>
+      </ul>
+      
+      <h2>4. Recovery Position</h2>
+      <p>If someone is unconscious but breathing, placing them in the recovery position helps keep their airway clear:</p>
+      <ul>
+        <li>Kneel beside the person and position their arm nearest to you at a right angle to their body</li>
+        <li>Place their other arm across their chest</li>
+        <li>Bend the far knee up at a right angle</li>
+        <li>Carefully roll them onto their side by pulling on the bent knee</li>
+        <li>Tilt their head back slightly to keep the airway open</li>
+        <li>Check regularly that they're still breathing while waiting for help</li>
+      </ul>
+      
+      <h2>5. Recognizing and Responding to a Stroke</h2>
+      <p>Time is critical when someone is having a stroke. Remember the acronym FAST:</p>
+      <ul>
+        <li><strong>F</strong>ace: Ask the person to smile. Does one side of their face droop?</li>
+        <li><strong>A</strong>rms: Ask them to raise both arms. Does one arm drift downward?</li>
+        <li><strong>S</strong>peech: Ask them to repeat a simple phrase. Is their speech slurred or strange?</li>
+        <li><strong>T</strong>ime: If you observe any of these signs, call emergency services immediately.</li>
+      </ul>
+      
+      <p>Learning these five basic skills can empower you to act confidently in an emergency. Consider taking a certified first aid course to practice these techniques hands-on and learn additional life-saving skills.</p>
+      
+      <p>Remember, in any emergency situation, your first step should always be to ensure the scene is safe for you to help, and to call for emergency medical assistance as quickly as possible.</p>
+    `,
+    date: "May 15, 2024",
+    readTime: "5 min read",
+    author: {
+      name: "Dr. Sarah Chen",
+      avatar: "/placeholder.svg?height=100&width=100",
+      role: "Emergency Medicine Physician",
+    },
+    image: "/placeholder.svg?height=400&width=600",
+    tags: ["First Aid", "Emergency Response", "Health", "Safety"],
+  },
+  {
+    id: "family-disaster-preparedness",
+    title: "How to Prepare Your Family for Natural Disasters",
+    excerpt: "Create a comprehensive emergency plan to keep your loved ones safe during unexpected events.",
+    content: `
+      <p>Natural disasters can strike with little warning, leaving families vulnerable if they haven't prepared in advance. Creating a comprehensive emergency plan is essential for keeping your loved ones safe during unexpected events. This guide will help you develop a family disaster preparedness plan that addresses the most critical aspects of emergency readiness.</p>
+      
+      <h2>Assess Your Risks</h2>
+      <p>Different regions face different natural disaster threats. Identify which disasters are most likely to affect your area:</p>
+      <ul>
+        <li>Hurricanes or tropical storms</li>
+        <li>Tornadoes</li>
+        <li>Floods</li>
+        <li>Earthquakes</li>
+        <li>Wildfires</li>
+        <li>Winter storms</li>
+        <li>Extreme heat</li>
+      </ul>
+      <p>Understanding the specific risks you face will help you tailor your preparations appropriately.</p>
+      
+      <h2>Create a Family Emergency Communication Plan</h2>
+      <p>During a disaster, family members may be separated. Establish how you'll communicate and reunite:</p>
+      <ul>
+        <li>Designate an out-of-area contact person that everyone can call to check in</li>
+        <li>Ensure everyone has important phone numbers memorized or written down</li>
+        <li>Identify meeting places: one near your home and another outside your neighborhood</li>
+        <li>Practice your communication plan regularly with all family members</li>
+      </ul>
+      
+      <h2>Build Emergency Kits</h2>
+      <p>Prepare emergency supplies for different situations:</p>
+      <h3>Home Emergency Kit</h3>
+      <ul>
+        <li>Water (one gallon per person per day for at least three days)</li>
+        <li>Non-perishable food (at least a three-day supply)</li>
+        <li>Battery-powered or hand-crank radio</li>
+        <li>Flashlight and extra batteries</li>
+        <li>First aid kit</li>
+        <li>Whistle to signal for help</li>
+        <li>Dust masks, plastic sheeting, and duct tape for sheltering in place</li>
+        <li>Moist towelettes, garbage bags, and plastic ties for personal sanitation</li>
+        <li>Wrench or pliers to turn off utilities</li>
+        <li>Manual can opener</li>
+        <li>Local maps</li>
+        <li>Cell phone with chargers and a backup battery</li>
+      </ul>
+      
+      <h3>Go-Bag (Evacuation Kit)</h3>
+      <p>A smaller, portable version of your emergency kit that you can quickly grab if you need to evacuate:</p>
+      <ul>
+        <li>Water and non-perishable food</li>
+        <li>Important documents in a waterproof container (insurance policies, identification, bank records)</li>
+        <li>Cash or traveler's checks</li>
+        <li>Sleeping bag or warm blanket for each person</li>
+        <li>Complete change of clothing and sturdy shoes</li>
+        <li>Personal hygiene items</li>
+        <li>Prescription medications and glasses</li>
+        <li>Pet supplies if applicable</li>
+        <li>Books, games, or activities for children</li>
+      </ul>
+      
+      <h3>Car Emergency Kit</h3>
+      <ul>
+        <li>Food and water</li>
+        <li>Jumper cables</li>
+        <li>Flares or reflective triangles</li>
+        <li>Ice scraper (in cold climates)</li>
+        <li>Cell phone charger</li>
+        <li>Cat litter or sand for traction</li>
+        <li>Warm clothes, gloves, and hats</li>
+        <li>Blankets</li>
+        <li>First aid kit</li>
+        <li>Small shovel</li>
+      </ul>
+      
+      <h2>Make a Home Evacuation Plan</h2>
+      <p>Ensure everyone knows how to safely exit your home in an emergency:</p>
+      <ul>
+        <li>Draw a floor plan showing all possible exits from each room</li>
+        <li>Identify two ways out of each room</li>
+        <li>Mark the location of emergency supplies and fire extinguishers</li>
+        <li>Designate an outside meeting spot</li>
+        <li>Practice your evacuation plan at least twice a year</li>
+      </ul>
+      
+      <h2>Consider Special Needs</h2>
+      <p>Tailor your plan to accommodate everyone in your household:</p>
+      <ul>
+        <li>Infants and young children: Pack formula, diapers, bottles, and comfort items</li>
+        <li>Seniors: Plan for medications, mobility aids, and medical equipment</li>
+        <li>People with disabilities: Create specific plans for evacuation assistance</li>
+        <li>Pets: Prepare carriers, food, water, and vaccination records</li>
+      </ul>
+      
+      <h2>Stay Informed</h2>
+      <p>Know how you'll receive emergency alerts and warnings:</p>
+      <ul>
+        <li>Sign up for your community's warning system</li>
+        <li>Have a weather radio with battery backup</li>
+        <li>Download emergency alert apps on your smartphone</li>
+        <li>Identify trusted sources of information during disasters</li>
+      </ul>
+      
+      <h2>Review and Update Regularly</h2>
+      <p>Emergency preparedness is an ongoing process:</p>
+      <ul>
+        <li>Review your plans every six months</li>
+        <li>Update contact information as needed</li>
+        <li>Replace stored food and water every six months</li>
+        <li>Check batteries in emergency equipment regularly</li>
+        <li>Reassess your plans after any life changes (moving, new family members, etc.)</li>
+      </ul>
+      
+      <p>By taking these steps to prepare your family for natural disasters, you'll increase your chances of staying safe during an emergency. Remember that preparation is not just about gathering supplies—it's about creating a mindset of readiness and resilience that will serve your family well in any crisis.</p>
+    `,
+    date: "April 28, 2024",
+    readTime: "7 min read",
+    author: {
+      name: "Michael Rodriguez",
+      avatar: "/placeholder.svg?height=100&width=100",
+      role: "Emergency Preparedness Specialist",
+    },
+    image: "/placeholder.svg?height=400&width=600",
+    tags: ["Disaster Preparedness", "Family Safety", "Emergency Planning"],
+  },
+  {
     id: "psychology-emergency-response",
     title: "The Psychology of Emergency Response: Staying Calm Under Pressure",
     excerpt: "Discover techniques to manage stress and make clear decisions during crisis situations.",

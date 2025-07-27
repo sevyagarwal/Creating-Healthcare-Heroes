@@ -18,6 +18,13 @@ const nextConfig = {
       }
     ],
   },
+  // Ensure static export compatibility
+  output: 'export',
+  trailingSlash: true,
+  // Disable server-side features for static export
+  experimental: {
+    appDir: true,
+  },
 };
 
 export default nextConfig;
