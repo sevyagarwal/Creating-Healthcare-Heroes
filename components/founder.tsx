@@ -77,7 +77,7 @@ export default function Founder() {
                 <div className="relative w-full h-full">
                   <Image
                     src="/placeholder.svg?height=200&width=200"
-                    alt="Dr. Jennifer Lee"
+                    alt="Anubhuti Sharma"
                     fill
                     sizes="(max-width: 768px) 100px, 160px"
                     style={{ objectFit: "cover" }}
@@ -85,10 +85,11 @@ export default function Founder() {
                   />
                 </div>
               </div>
-              <h4 className="text-xl font-semibold mb-1 text-primary">Dr. Jennifer Lee</h4>
+              <h4 className="text-xl font-semibold mb-1 text-primary">Anubhuti Sharma</h4>
               <p className="text-secondary font-medium mb-2">Board Chair</p>
               <p className="text-gray-600 text-sm mb-3">
-                Emergency Medicine Physician with 15 years of experience in trauma care and medical education.
+                Healthcare professional with extensive experience in public health initiatives and community outreach
+                programs.
               </p>
               <div className="flex justify-center space-x-2">
                 <a href="#" className="text-primary hover:text-primary/80">
