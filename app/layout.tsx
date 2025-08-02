@@ -4,10 +4,11 @@ import { Poppins } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-// Import the ConstructionBanner component
 import ConstructionBanner from "@/components/construction-banner"
+import ChangeNotificationPopup from "@/components/change-notification-popup"
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] }) // Add weights as needed
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] })
+
 export const metadata = {
   title: "One Breath Ahead - Non-Profit Organization",
   description: "We teach life-saving skills to empower communities and save lives.",
@@ -35,6 +36,7 @@ export default function RootLayout({
             <ConstructionBanner />
             {children}
             <Footer />
+            <ChangeNotificationPopup />
           </div>
         </ThemeProvider>
       </body>

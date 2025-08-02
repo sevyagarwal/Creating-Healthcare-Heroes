@@ -26,6 +26,10 @@ export default function Navbar() {
     setIsOpen(!isOpen)
   }
 
+  const handleLinkClick = () => {
+    setIsOpen(false)
+  }
+
   const navLinks = [
     { name: "The Problem", href: "/the-problem" },
     {
@@ -41,7 +45,7 @@ export default function Navbar() {
     { name: "What We Teach", href: "/#what-we-teach" },
     { name: "Impact", href: "/#impact" },
     { name: "Get Involved", href: "/#get-involved" },
-    { name: "Blog", href: "/#blog" },
+    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/#contact" },
   ]
 
@@ -55,7 +59,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo and Title */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2" onClick={handleLinkClick}>
             <div className="relative w-14 h-14">
               <Image
                 src="/logo.png"
@@ -87,7 +91,7 @@ export default function Navbar() {
                     <DropdownMenuContent>
                       {link.items?.map((item) => (
                         <DropdownMenuItem key={item.name} asChild>
-                          <Link href={item.href} className="w-full">
+                          <Link href={item.href} className="w-full" onClick={handleLinkClick}>
                             {item.name}
                           </Link>
                         </DropdownMenuItem>
@@ -99,6 +103,7 @@ export default function Navbar() {
                     key={link.name}
                     href={link.href}
                     className={cn("px-3 py-2 text-sm font-bold transition-colors", "text-black hover:text-gray-700")}
+                    onClick={handleLinkClick}
                   >
                     {link.name}
                   </Link>
@@ -107,12 +112,15 @@ export default function Navbar() {
             </nav>
             <Link
               href="/school-program"
-              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md flex items-center justify-center"
+              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md flex items-center justify-center transition-colors"
+              onClick={handleLinkClick}
             >
               Bring this to your school
             </Link>
             <Button asChild className="bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5] font-bold">
-              <Link href="#save-a-life">Can You Save a Life in 60s?</Link>
+              <Link href="/#save-a-life" onClick={handleLinkClick}>
+                Can You Save a Life in 60s?
+              </Link>
             </Button>
           </div>
 
@@ -127,19 +135,19 @@ export default function Navbar() {
 
       {/* Mobile Navigation Menu */}
       {isOpen && isMobile && (
-        <div className="md:hidden bg-[#FFD6E8]">
+        <div className="md:hidden bg-[#FFD6E8] border-t border-[#FFB6D3]">
           <div className="container mx-auto px-4 py-3 flex flex-col space-y-2">
             {navLinks.map((link) =>
               link.dropdown ? (
                 <div key={link.name} className="space-y-1">
-                  <div className="px-3 py-2 text-sm font-bold text-black">{link.name}</div>
+                  <div className="px-3 py-2 text-sm font-bold text-black border-b border-[#FFB6D3]/50">{link.name}</div>
                   <div className="pl-6 space-y-1">
                     {link.items?.map((item) => (
                       <Link
                         key={item.name}
                         href={item.href}
-                        className="block px-3 py-1 text-sm text-black hover:text-gray-700 transition-colors"
-                        onClick={() => setIsOpen(false)}
+                        className="block px-3 py-2 text-sm text-black hover:text-gray-700 hover:bg-[#FFB6D3]/30 rounded transition-colors"
+                        onClick={handleLinkClick}
                       >
                         {item.name}
                       </Link>
@@ -150,13 +158,8 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={cn(
-                    "px-3 py-2 text-sm font-bold transition-colors",
-                    link.isSpecial
-                      ? "bg-[#C7E7F5] text-primary hover:bg-[#A7D7E5] rounded-md inline-block"
-                      : "text-black hover:text-gray-700",
-                  )}
-                  onClick={() => setIsOpen(false)}
+                  className="px-3 py-2 text-sm font-bold text-black hover:text-gray-700 hover:bg-[#FFB6D3]/30 rounded transition-colors"
+                  onClick={handleLinkClick}
                 >
                   {link.name}
                 </Link>
@@ -164,13 +167,13 @@ export default function Navbar() {
             )}
             <Link
               href="/school-program"
-              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md text-center inline-block"
-              onClick={() => setIsOpen(false)}
+              className="px-3 py-2 text-sm font-bold bg-[#C7E7F5] text-black hover:bg-[#A7D7E5] rounded-md text-center inline-block mt-2 transition-colors"
+              onClick={handleLinkClick}
             >
               Bring this to your school
             </Link>
             <Button asChild className="mt-2 bg-[#E6544F] hover:bg-[#E6544F]/90 text-[#F5F5F5] font-bold">
-              <Link href="#save-a-life" onClick={() => setIsOpen(false)}>
+              <Link href="/#save-a-life" onClick={handleLinkClick}>
                 Can You Save a Life in 60s?
               </Link>
             </Button>

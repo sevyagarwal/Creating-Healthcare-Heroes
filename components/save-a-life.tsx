@@ -342,6 +342,15 @@ export default function SaveALife() {
     setReflexTestStarted(false)
     setQuizCompleted(false)
     setReflexCompleted(false)
+    setCurrentScenario(0)
+    setCurrentDecision(0)
+    setScore(0)
+    setReflexScore(0)
+    setSelectedAnswers([])
+    setReflexFeedback([])
+    setTimeLeft(10)
+    setReflexTimeLeft(60)
+    setReflexScoreCategory("")
   }
 
   return (
@@ -456,7 +465,7 @@ export default function SaveALife() {
                         onClick={() => handleAnswerSelect(option.id)}
                         className="mt-1"
                       />
-                      <Label htmlFor={option.id} className="ml-2 text-gray-700">
+                      <Label htmlFor={option.id} className="ml-2 text-gray-700 cursor-pointer">
                         {option.text}
                       </Label>
                     </div>
@@ -480,7 +489,7 @@ export default function SaveALife() {
                   "This is what 60 seconds feels like when someone's life depends on you. Would you know what to do?"
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button onClick={resetQuiz} variant="outline" className="border-primary text-primary">
+                  <Button onClick={resetQuiz} variant="outline" className="border-primary text-primary bg-transparent">
                     Try Again
                   </Button>
                   <Button className="bg-secondary hover:bg-secondary/90 text-white">Learn First Aid Now</Button>
@@ -581,10 +590,10 @@ export default function SaveALife() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <Button className="bg-secondary hover:bg-secondary/90 text-white">Learn First Aid Now</Button>
-                  <Button variant="outline" className="border-primary text-primary">
+                  <Button variant="outline" className="border-primary text-primary bg-transparent">
                     Donate to Equip a School
                   </Button>
-                  <Button variant="outline" className="border-primary text-primary">
+                  <Button variant="outline" className="border-primary text-primary bg-transparent">
                     Share This Challenge
                   </Button>
                 </div>

@@ -136,13 +136,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-gray-300">
-                123 Life Saving Street
-                <br />
-                San Francisco, CA 94103
-              </li>
-              <li className="text-gray-300">info@onebreathahead.org</li>
-              <li className="text-gray-300">+1 (555) 123-4567</li>
+              <li className="text-gray-300">onebreathahead@gmail.com</li>
             </ul>
           </div>
         </div>
