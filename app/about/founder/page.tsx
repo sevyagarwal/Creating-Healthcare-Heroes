@@ -169,7 +169,7 @@ export default function FounderPage() {
                       <Users className="h-8 w-8 text-gray-400" />
                     </div>
                     <h4 className="font-semibold text-lg mb-2">Anubhuti Sharma</h4>
-                    <p className="text-gray-600 text-sm mb-3">Healthcare Policy Expert</p>
+                    <p className="text-gray-600 text-sm mb-3">Board of Directors - Board Chair & Medical Director</p>
                     <p className="text-gray-700 text-sm">
                       Former healthcare administrator with 15+ years experience in emergency medical services and public
                       health policy. Anubhuti brings deep expertise in healthcare systems and policy development to
@@ -190,7 +190,7 @@ export default function FounderPage() {
                       />
                     </div>
                     <h4 className="font-semibold text-lg mb-2">Sarva Thulasingam</h4>
-                    <p className="text-gray-600 text-sm mb-3">Education Technology Leader</p>
+                    <p className="text-gray-600 text-sm mb-3">Board of Directors - Director of Operations</p>
                     <p className="text-gray-700 text-sm">
                       EdTech entrepreneur and former teacher who specializes in scaling educational programs across
                       diverse communities. Sarva's experience in curriculum development and educational technology helps
@@ -211,7 +211,7 @@ export default function FounderPage() {
                       />
                     </div>
                     <h4 className="font-semibold text-lg mb-2">Umesh Tiwari</h4>
-                    <p className="text-gray-600 text-sm mb-3">Emergency Medicine Physician</p>
+                    <p className="text-gray-600 text-sm mb-3">Board of Directors - Emergency Medicine Physician</p>
                     <p className="text-gray-700 text-sm">
                       Board-certified emergency physician with expertise in pediatric emergency care and community
                       health initiatives. Dr. Tiwari ensures our training programs meet the highest medical standards
