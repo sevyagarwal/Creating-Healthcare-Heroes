@@ -1,25 +1,26 @@
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
+import { Users } from "lucide-react"
 
 export default function Founder() {
   const boardMembers = [
     {
       name: "Anubhuti Sharma",
-      role: "Board of Directors - Board Chair & Medical Director",
+      role: "Board of Directors",
       bio: "Emergency medicine physician with 15+ years experience in pediatric emergency care. Passionate about preventive healthcare education.",
-      image: "/images/sevya-agarwal.png",
+      image: null,
     },
     {
       name: "Sarva Thulasingam",
-      role: "Board of Directors - Director of Operations",
+      role: "Board of Directors",
       bio: "Former school administrator with expertise in curriculum development and educational program implementation across diverse communities.",
-      image: "/images/sarva-thulasingam.png",
+      image: null,
     },
     {
       name: "Umesh Tiwari",
-      role: "Board of Directors - Community Outreach Director",
+      role: "Board of Directors",
       bio: "Public health advocate with extensive experience in community engagement and health education program coordination.",
-      image: "/images/umesh-tiwari.png",
+      image: null,
     },
   ]
 
@@ -73,15 +74,8 @@ export default function Founder() {
           {boardMembers.map((member, index) => (
             <Card key={index} className="bg-white border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-6 text-center">
-                <div className="relative w-32 h-32 mx-auto mb-4">
-                  <Image
-                    src={member.image || "/placeholder.svg"}
-                    alt={member.name}
-                    width={128}
-                    height={128}
-                    className="rounded-full object-cover"
-                    unoptimized
-                  />
+                <div className="w-32 h-32 bg-gradient-to-br from-[#E6F7FF] to-[#FFD6E8] rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <Users className="h-12 w-12 text-[#0A4B53]" />
                 </div>
                 <h3 className="text-xl font-bold text-[#0A4B53] mb-2">{member.name}</h3>
                 <p className="text-[#E6544F] font-semibold mb-3">{member.role}</p>

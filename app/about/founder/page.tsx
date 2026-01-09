@@ -2,9 +2,8 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import Founder from "@/components/founder"
 import type { Metadata } from "next"
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { ArrowLeft, Heart, Users, Globe, Award, BookOpen, Target } from "lucide-react"
+import { ArrowLeft, Heart, Users, Award, BookOpen, Target } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -39,11 +38,12 @@ export default function FounderPage() {
               <div>
                 <div className="relative">
                   <Image
-                    src="/images/sevya-agarwal.png"
+                    src="/images/sevya-founder.png"
                     alt="Sevya Agarwal, Founder"
                     width={500}
                     height={600}
                     className="rounded-lg shadow-lg"
+                    unoptimized
                   />
                   <div className="absolute -bottom-4 -right-4 bg-[#E6544F] text-white p-4 rounded-lg shadow-lg">
                     <Heart className="h-8 w-8" />
@@ -165,11 +165,11 @@ export default function FounderPage() {
               <div className="grid md:grid-cols-3 gap-8">
                 <Card className="border-none shadow-sm">
                   <CardContent className="p-6 text-center">
-                    <div className="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <Users className="h-8 w-8 text-gray-400" />
+                    <div className="w-20 h-20 bg-gradient-to-br from-[#E6F7FF] to-[#FFD6E8] rounded-full mx-auto mb-4 flex items-center justify-center">
+                      <Users className="h-8 w-8 text-[#0A4B53]" />
                     </div>
                     <h4 className="font-semibold text-lg mb-2">Anubhuti Sharma</h4>
-                    <p className="text-gray-600 text-sm mb-3">Board of Directors - Board Chair & Medical Director</p>
+                    <p className="text-gray-600 text-sm mb-3">Board of Directors</p>
                     <p className="text-gray-700 text-sm">
                       Former healthcare administrator with 15+ years experience in emergency medical services and public
                       health policy. Anubhuti brings deep expertise in healthcare systems and policy development to
@@ -180,17 +180,11 @@ export default function FounderPage() {
 
                 <Card className="border-none shadow-sm">
                   <CardContent className="p-6 text-center">
-                    <div className="relative w-20 h-20 mx-auto mb-4">
-                      <Image
-                        src="/images/sarva-thulasingam.png"
-                        alt="Sarva Thulasingam"
-                        width={80}
-                        height={80}
-                        className="rounded-full object-cover"
-                      />
+                    <div className="w-20 h-20 bg-gradient-to-br from-[#E6F7FF] to-[#FFD6E8] rounded-full mx-auto mb-4 flex items-center justify-center">
+                      <Users className="h-8 w-8 text-[#0A4B53]" />
                     </div>
                     <h4 className="font-semibold text-lg mb-2">Sarva Thulasingam</h4>
-                    <p className="text-gray-600 text-sm mb-3">Board of Directors - Director of Operations</p>
+                    <p className="text-gray-600 text-sm mb-3">Board of Directors</p>
                     <p className="text-gray-700 text-sm">
                       EdTech entrepreneur and former teacher who specializes in scaling educational programs across
                       diverse communities. Sarva's experience in curriculum development and educational technology helps
@@ -201,47 +195,32 @@ export default function FounderPage() {
 
                 <Card className="border-none shadow-sm">
                   <CardContent className="p-6 text-center">
-                    <div className="relative w-20 h-20 mx-auto mb-4">
-                      <Image
-                        src="/images/umesh-tiwari.png"
-                        alt="Umesh Tiwari"
-                        width={80}
-                        height={80}
-                        className="rounded-full object-cover"
-                      />
+                    <div className="w-20 h-20 bg-gradient-to-br from-[#E6F7FF] to-[#FFD6E8] rounded-full mx-auto mb-4 flex items-center justify-center">
+                      <Users className="h-8 w-8 text-[#0A4B53]" />
                     </div>
                     <h4 className="font-semibold text-lg mb-2">Umesh Tiwari</h4>
-                    <p className="text-gray-600 text-sm mb-3">Board of Directors - Emergency Medicine Physician</p>
+                    <p className="text-gray-600 text-sm mb-3">Board of Directors</p>
                     <p className="text-gray-700 text-sm">
-                      Board-certified emergency physician with expertise in pediatric emergency care and community
-                      health initiatives. Dr. Tiwari ensures our training programs meet the highest medical standards
-                      and best practices.
+                      Public health advocate with extensive experience in community engagement and health education
+                      program coordination. Umesh ensures our programs reach underserved communities effectively.
                     </p>
                   </CardContent>
                 </Card>
               </div>
-            </div>
 
-            <div className="text-center">
-              <div className="bg-[#E6544F]/10 rounded-lg p-8">
-                <Globe className="h-12 w-12 text-[#E6544F] mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-4 text-[#1E1E1E]">Join Sevya's Mission</h3>
-                <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-                  We're building a movement of educators, parents, and community leaders who believe every child
-                  deserves to know how to save a life. Together, we can make first aid education universal.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/volunteer">
-                    <Button className="bg-[#E6544F] hover:bg-[#E6544F]/90 text-white">Become a Volunteer</Button>
-                  </Link>
-                  <Link href="/school-program">
-                    <Button
-                      variant="outline"
-                      className="border-[#E6544F] text-[#E6544F] hover:bg-[#E6544F]/10 bg-transparent"
-                    >
-                      Bring Program to Your School
-                    </Button>
-                  </Link>
+              <div className="mt-12 text-center">
+                <h3 className="text-xl font-bold mb-6 text-[#1E1E1E]">Contact Information</h3>
+                <div className="flex flex-col sm:flex-row justify-center gap-8">
+                  <div>
+                    <p className="font-semibold text-[#0A4B53]">Our Location</p>
+                    <p className="text-gray-600">Austin, Texas</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-[#0A4B53]">Email</p>
+                    <a href="mailto:onebreathahead@gmail.com" className="text-[#E6544F] hover:underline">
+                      onebreathahead@gmail.com
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
